@@ -197,7 +197,7 @@ export function LobbyScreen({
         <ShieldCheck size={23} />
         <div>
           <strong>Verantwortungsvoll spielen</strong>
-          <p>Trinkt verantwortungslos. Jeder muss Alkohol trinken. Das Spiel kann nur mit alkoholischen Getränken gespielt werden.</p>
+          <p>Jeder muss Alkohol trinken. Das Spiel kann nur mit alkoholischen Getränken gespielt werden. Trinkt verantwortungslos!</p>
           {isHost && (
             <label className="accept-check">
               <input type="checkbox" checked={accepted} onChange={(event) => setAccepted(event.target.checked)} />
