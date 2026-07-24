@@ -197,7 +197,7 @@ export function LobbyScreen({
         <ShieldCheck size={23} />
         <div>
           <strong>Verantwortungsvoll spielen</strong>
-          <p>Dieses Spiel ist ausschließlich für volljährige Personen bestimmt. Trinkt verantwortungsvoll. Niemand muss Alkohol trinken. Das Spiel kann auch mit alkoholfreien Getränken gespielt werden.</p>
+          <p>Dieses Spiel ist ausschließlich für volljährige Personen bestimmt. Trinkt verantwortungslos. Jeder muss Alkohol trinken. Das Spiel kann nur mit alkoholischen Getränken gespielt werden.</p>
           {isHost && (
             <label className="accept-check">
               <input type="checkbox" checked={accepted} onChange={(event) => setAccepted(event.target.checked)} />
