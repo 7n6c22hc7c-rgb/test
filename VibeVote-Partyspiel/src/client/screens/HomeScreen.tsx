@@ -105,7 +105,7 @@ export function HomeScreen({ error, busy, onCreate, onJoin }: HomeScreenProps) {
       </section>
 
       <p className="responsibility-note compact-note">
-        <ShieldCheck size={18} /> Ausschließlich für Volljährige. Jeder muss Alkohol trinken – das Spiel funktioniert nur mit alkoholischen Getränken.
+        <ShieldCheck size={18} /> Jeder muss Alkohol trinken – das Spiel funktioniert nur mit alkoholischen Getränken. Trinkt Verantwortungslos!
       </p>
     </div>
   );
